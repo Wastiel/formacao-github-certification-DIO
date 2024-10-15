@@ -247,14 +247,138 @@ Configurando LDAP
 Chaves de Implementação
 Utilizando Tokens de Acesso Pessoal (PATs)
 
+## Colaboração no GitHub
+
+### Criando Repositórios e Branches, aplicando comandos Git
+
+O que é um repositório: Local onde ficam guardados todos os detalhes de um código fonte. 
+
+Beranches: é uma linha de desenvolvimmento separada. Um controle de versão. Uma linha segura de desenvolvimento. Ela somente entra na branch princial "Main", depois as alteraçoes são acopladas ao desenvolvimento principal.
+
+Pull Rerquest e Merge: pedido de mesclagem, e dpois da visotrria se junta o código fonte ao ponto principal. 
+
+Fork: Processo de cópia de um repositório ou um projeto. 
+
+### Criando repositórios, Branches e pull Requests 
+
+- Criar um Repositório local e adicionarlo ao nosso git:
+    - Criamos uma pasta meu-repositório-teste.
+    - Criamos um arquivo README.md dentro do nosso repositório.
+    - Vamos ao GitHub e criamos o nosso repositório.
+    - Observação: O github sugere o que temos que fazer para adicionar o repositorio criado a uma diretorio no computador
+    - utilizamos o comando git add . para sinalizar os arquivos que vamos adicionar
+    - git commit -m "para commitar o que construimos"
+    - git add origin "Caminho do repositório"
+    - git push -u origin main, para adicionar os dados ao nosso git hub
+
+- Clonar um respositório:
+    - Pegamos  a url do repositorio
+    - git clone "O respositório copiado"
+
+- Realizar alterações:
+    - git add .
+    - git commit -m "realizando alterações no projeto"
+    - git push origin main
+
+- Criar uma branch
+    - git branch versao_01, cria a nova branch
+    - git checkou versao_01, vamos ir para a nova branch
+    - git checkout main, voltamos para a main
+    - git merge versao_01, mandamos para a main a nossa branch
+
+- Realizando um pull request:
+    - Ir na pagina do repositorio e clicar em fork
+    - clicamos em criar fork, o fork estamos apontando para uma branch de outra pessoa.
+    - Criamos o cmmmit
+    - criamos um pull request no proejto.
+    - Posterior o titular da branch, tem que aprovar o pull request ou sinalizar mudanças ou alterações de correções que devem ser feitas.
+
+### Tags
+
+Tags, trazem oportunidades de trazer versões especificas do nosso código
+
+- git tag -a V1.1 -m "Mensagem da versão"
+- git push origin V1.1, mandamos a tage para o nosso repositório.
+    
+### Realeses
+
+Considerada uma maneira de de c riar uma versão para empactor o software com notas de versão e arquivos para downloads e para uso de outras pessoas.
+
+- Dentro do git, criamos uma realese.
+    - Utilizamos uma tag 
+    - Geramos uma realese Notes
+
+### Gists
+
+- Facilita a compartilhaçao de pequenos trechos de código.
+- Se assemelha a criar um repositório
+- Na programação podemos compartilhar trechos de códigos.
+- Podem ser incorporados a sites divertos
+- Após a criação, adicionamos uma parte do arquivo ou código para compartilhar com outras pessoas. Ou até alguma chamada especifico. 
+
+### Issues
+
+- Relacionado a codigos fontes
+- Utilizadas para apontar correção de bugs e até mesmo rastrear tarefas, vinculadas ao código fonte.
+- São solicitações de melhorias e correções de bug
+- Ponto de colaboração, assim as issues podem ser abertas por qualquer pessoa.
+
+- Pegamos um repositório para contribuirmos com o mesmo
+    - Vamos abrir uma issue para melhorar o jogo da velha.
+    - Issues no próprio GitHub, no repositório
+    - Criamos uma issue, com título e descrição
+    - conseguimos adicionar imagens.
+    - É enviado um email sobre a issue
+    - Podemos sinalizar sobre a issue, com comentarios e outros detalhes para quem solicitou a mesma.
+    - Podemos atribuir a issue para alguém.
+
+### Wikis
+
+- São um readme melhorados. Podemos fazer uma documentação de forma mais detalhadas, detalhar de forma mais completa do que o próprio Reade.me
+- Objetivo é a wiki ser uma documentação mais detalhada sobre o projeto.
+- Organizar de uma forma mais profissional.
+- Todos os detalhes do nosso nprojeto
+
+### Pesquisas e Refêrencias
+
+- Tipos de pesquisa do GitHub
+    - Na busca do git, podemos buscar dentro do repositório de um usuário especifico.
+    - Buscarmos de forma geral, trazendo por exemplo angular, conseguimos encotnrar diveros itens, como projetos, repositoirios, marketplace, wikis, users.
+
+- Conseguimos procurar alguns conceitos maiores.
+- Referencias de ligação automatica
+    - Conseguimos referenciar a um outro pull request. 
+
+- Conseguimos fazer muitas referencias dentro do nossos pull requestes. Ajuda a organizar o proejto e fluxos.
+
+- Conseguimos associar um commit a uma issue.
+
+### Questionário
+
+Para que serve o Fork no GitHub?
+Excluir um repositório no GitHub.
+Realizar um Pull Request.
+Criar uma cópia de um branch.
+Criar uma cópia de um repositório para o seu próprio espaço no GitHub.
+
+O que são Gists no GitHub?
+Gists são pequenos repositórios Git e independentes, geralmente contendo um único arquivo, usados para compartilhar trechos de código.
+Mensagens de erro no GitHub
+Solicitações para criar novos repositórios.
+Branches temporárias para testes.
+
+O que é um Pull Request no GitHub?
+Pedido para criar um novo branch.
+Pedido para excluir um repositório.
+Solicitação para fazer o download do repositório.
+Um Pull Request é uma solicitação para revisão e mesclagem de alterações em um repositório.
 
 
-
-
-
-
-
-
+Qual é o propósito das Wikis no GitHub?
+Documentar bugs no código.
+Fornecer uma plataforma colaborativa para documentação de projetos.
+Gerenciar branches no repositório.
+Facilitar a comunicação por meio de issues.
 
 
 
