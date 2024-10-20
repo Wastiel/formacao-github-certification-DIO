@@ -119,4 +119,169 @@ São utilizadas para criar tokens de acesso pessoal.
 Issues são equivalentes a repositórios privados.
 Issues são usadas para autenticar usuários no GitHub.
 
-### Github Copi
+### Github Copilot
+
+Github Copilot: Ferramenta desenvolvida juntamente com a OpenAI, que traz praticidade de soluções e melhorias para o nosso código. paraçe um colega nos auxiliando a desenvolver. Uma ferraenta que podemos utilizar no nosso ambiente de desenvolivmento para nos auxiliar no dia a dia. 
+
+A ferramenta de IA, nos traz a praticidade de aprendermos de forma diferente. Mas ela não substitui o entendimento de código que necesstiamos ter pois se não vamos estar somente copiando e colando, não trazendo beneficio algum ao nosso trabalho. 
+
+O Github Copilot tem opções pagas de utilização, além também de uma opção free para estudantes. 
+
+Consegimos integrar o mesmo ao nosso VScode, desde que tenhamos uma licensa paga ou educacional. 
+
+A ideia de usar o copilot, facilitar a vida do desenvolvedor. Conseguimos auxilio para construção de documentação.
+
+
+### Questionarios
+
+Qual é o propósito principal do GitHub Copilot?
+Fornecer sugestões automáticas de código durante a programação.
+Realizar análise de código estático.
+Gerenciar repositórios Git.
+Testar automaticamente o código fonte.
+
+
+
+O GitHub Copilot substitui completamente a necessidade de programadores escreverem código manualmente?
+Não, é uma ferramenta auxiliar para gerar código, mas a intervenção humana é necessária.
+Sim, em todas as situações.
+Apenas em projetos de pequena escala.
+Apenas em linguagens de programação específicas.
+
+Além de oferecer sugestões de código, o que mais o GitHub Copilot pode fazer durante o processo de desenvolvimento?
+Nenhuma das opções anteriores.
+Gerar documentação do código.
+Automatizar testes unitários.
+Debugar automaticamente.
+
+Qual linguagem de programação é suportada pelo GitHub Copilot?
+Diversas linguagens, incluindo Python, JavaScript, Java, entre outras.
+Apenas Python.
+Somente linguagens web, como HTML e CSS.
+Apenas JavaScript.
+
+### Github Codespace
+
+O que é o Github Codespace: Ambiente de desenvolvimento totalmente na nuvem.
+Ele traz esta possibilidade de desenvolvimento do projeto na nuvem.
+É criado um container na nuvem para o projeto. 
+Conseguimos utilizar totalmente da nuvem.
+Tem mais processamento que um computador normal. 
+
+#### Planos e Custos
+
+O github codspaes é limitado em horas gratuitas, posterior ocorre faturamento.
+
+#### Criando Nosso Codespace
+
+O codespace é criado internamente por dentro do gitHub. 
+Ao criarmos o CodeSpace ficamos com uma ide online.
+Nos permite instalarmos plugins, estilo VScode, dependendo da interffaçe que escolhermos.
+Conseguimos configurar o CodeSpace.
+Uma das configurações mais interessantes é configurar paraele desligar o container minutos depois após a não utilização do mesmo. 
+
+#### Diferenças entre o Github.dev e o Codespace
+
+Qual utiizar? Depende do nosso objetivo. Para coisas mais simples, github.dev. Se precisarmos rodar o nosso projeto, o GitHub Codespace. 
+
+- Github.dev: 
+    - Totalmente free.
+    - No nosso repositório, clicando em ".", conseguimos abrir o console web para desenvolvimento. 
+    - Não tem computação associada a ele.
+    - Limitação de extensões
+- Codespace: 
+    - Limitação a quantidade de horas.
+    - cria um container na nuvem.
+    - Tem processamento vinculada a aplicação. 
+    - Extensão conforme IDE que escolhemos.
+
+### Questionário
+
+Quais são os benefícios do GitHub Codespaces?
+Interação social online.
+Treinamento para missões espaciais.
+Desenvolvimento colaborativo de código em tempo real.
+Simulação de corridas de carros.
+
+Qual é o principal propósito do GitHub Codespaces?
+Monitoramento de redes sociais.
+Desenvolvimento de software em nuvem.
+Edição de vídeos.
+Criação de gráficos 3D.
+
+O que é o GitHub Codespaces?
+Um jogo online de estratégia.
+Um serviço de delivery de alimentos.
+Uma plataforma de streaming de música.
+Uma ferramenta para hospedagem de código e desenvolvimento colaborativo.
+
+Quem é o público-alvo do GitHub Codespaces?
+Engenheiros elétricos.
+Desenvolvedores de software.
+Designers de moda.
+Biólogos marinhos.
+
+### Desafios
+
+Resolvendo Códigos em Python com o Github Copilot
+Olá!! Aqui veremos algumas resoluções de códigos em python utilizando o Github Copilot.
+
+Atenção ⚠️
+Não tem acesso ao Github Copilot?! Não tem problema!! Que tal utilizar o ChatGPT como seu copiloto de estudos ??
+
+1 - Concatenando Dados 🐾
+Descrição: Vamos receber dois dados diferentes do usuário e concatena-los em uma única string?!
+
+O que aprenderemos?
+
+Manipulação de Strings (string)
+Concatenação
+Entrada de dados
+Utilização eficiente do Github Copilot
+
+2 - Repetindo Textos ✏️
+Descrição: Agora vamos solicitar uma string e um número inteiro como entrada. Depois teremos que retornar a string repetida o número de vezes informado.
+
+O que aprenderemos?
+
+Manipulação de Strings (string)
+Números Inteiros (int)
+Múltiplas repetições
+Entrada de dados
+Aproveitar as sugestões do Github Copilot
+
+3 - Operações Matemáticas Simples 📐
+Descrição: Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
+
+O que aprenderemos?
+
+Operações Matemáticas Básicas
+Entrada de dados
+Utilização eficiente do Github Copilot
+
+4 - Verificando Números Pares e Ímpares 🧮
+Descrição: Como entrada, receba um número inteiro e verifique se ele é par ou ímpar. Uma dica é: Utilize condicionais para realizar a verificação e, se possível, faça uso do Github Copilot(ou outra IA) para otimizar a estrutura do código.
+
+O que aprenderemos?
+
+Utilização de condicionais em Python (if, else) para realizar verificações.
+Introdução ao conceito de operador de módulo (%) para verificar se um número é par ou ímpar.
+Exploração do uso de uma ferramenta de IA, como o Github Copilot, para otimizar a estrutura do código.
+
+5 - Calculando Média de Notas 📚
+Descrição: Agora vamos calcular a média de três notas fornecidas na entrada do usuário. Uma dica é: Utilize operadores aritméticos para realizar o cálculo da média.
+
+O que aprenderemos?
+
+Uso de variáveis para armazenar dados fornecidos pelo usuário.
+Aplicação de operadores aritméticos (+, /) para calcular a média de um conjunto de valores.
+Prática na solicitação e manipulação de entrada do usuário.
+
+6 - Verificando Palíndromos 🔄
+Descrição: Vamos testar se uma palavra é um palíndromo?! Uma dica é: Utilize conceitos de manipulação de strings para inverter a palavra e comparar com a original.
+
+O que aprenderemos?
+
+Manipulação de strings em Python, especialmente invertendo uma string.
+Compreensão de como comparar a string original com sua versão invertida para determinar se é um palíndromo.
+Introdução ao conceito de palíndromos e sua aplicação em problemas de programação.
